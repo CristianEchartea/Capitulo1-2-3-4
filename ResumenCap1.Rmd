@@ -1,0 +1,36 @@
+---
+title: "ResumenCap1"
+author: "Cristian Echartea"
+date: "23/1/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## ¿Por que analisamos los datos?
+El análisis de datos es importante para entender lo que ha pasado o lo que está pasando, para predecir lo que probablemente suceda en el futuro o en otras circunstancias y para tomar decisiones con fundamentos.
+El término dato se refiere a que es una característica de una instancia
+Comando help(mtcars): aparecerá una página de ayuda que da la fuente original de los datos, cita un papel de la literatura estadística que analiza este conjunto de datos, y describe brevemente la    variables incluidas. Es importante que si se agrupan datos se tome el mismo criterio de agrupación para todo el conjunto de datos
+
+##Analisis Exploratorio
+ Consiste en ver los datos uno a uno para poder entenderlos o encontrar patrones para descifrar un determinado comportamiento. En los dataset pueden existir datos categóricos o numéricos, que sean     categóricos no quiere decir que no se pueden evaluar de forma numérica, al contrario se pueden agrupar los datos por categoría y obtener porcentajes, existen gráficas diseñadas para graficar los datos de distinta manera de forma visual para que sean más fácil de entender que solo ver el dataset.
+ 
+Exitsen tipos de variables categóricas y numéricas cada uno tiene un enfoque diferente de acuerdo al problama que se presente. Una de las cosas que debemos de tener en cuenta la hora de analisar los datos es que debemos de encontrar la forma de representar los datos de una manera adecuada. También es importante saber que es lo que le queremos mostrar al usuario final así como que debemos de mostrar.
+
+##Introduccion a R
+Es importante tener en cuenta que la instalación de un paquete R lo hace disponible para su uso, pero esto no "carga" el paquete en su sesión R actual. Para hacer esto, debe usar la función library (), que funciona de dos maneras diferentes. Primero, si ingresa esta función sin ningún parámetro, es decir, escriba "library ()" en el indicador R, se abrirá una nueva ventana que enumera todos los paquetes que se han instalado en su máquina. Para usar cualquiera de estos paquetes, es necesario usar el comando library () nuevamente, esta vez especificando el nombre del paquete que desea usar como parámetro
+
+##¿preguntas que nos debemos de hacer al trabajar con un dataset desconocido?
+1. ¿Cuántos registros contiene este conjunto de datos?
+2. ¿Cuántos campos (es decir, variables) se incluyen en cada registro?
+3. ¿Qué tipo de variables son estas? (por ejemplo, números reales, enteros, categóricos
+variables como "ciudad" o "tipo", o algo más?)
+4. ¿Se observan siempre estas variables? (es decir, ¿los datos faltantes son un problema? Si es así,
+¿Cómo se representan los valores faltantes?)
+5. ¿Las variables incluidas en el conjunto de datos son las que esperábamos?
+6. ¿Los valores de estas variables son consistentes con lo que esperamos?
+7. ¿Las variables en el conjunto de datos parecen exhibir los tipos de relaciones
+¿esperamos? (De hecho, ¿qué relaciones esperamos y por qué?)
+
